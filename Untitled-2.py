@@ -1,4 +1,9 @@
-a = int(input("Obtained Marks: "))
-b = int(input("Total Marks: "))
-c = a / b * 100
-print(c)
+fruits = {
+    "Malus domestica": "Apple",
+    "Musa acuminata": "Banana",
+    "Vitis vinefera": "Grapes",
+    "Mangifera indica": "Mango"
+    }
+print(fruits["Mango"])
+for key, values in fruits.items():
+    print(f"{key} : {values}")

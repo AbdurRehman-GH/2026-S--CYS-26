@@ -1,3 +1,5 @@
+stu_dic = {}
+
 a = int(input("Obtained Marks: "))
 b = int(input("Total Marks: "))
 c = a / b * 100
@@ -30,3 +32,13 @@ else:
         print("D")
     elif c <= 49:
         print("F")
+
+total_stu = int(input("Enter number of students: "))
+for i in range(total_stu+1):
+    name = input("Enter student's name: ")
+    marks = input("Enter student's marks: ")
+    stu_list = [(name,marks)]
+    for key, value in stu_list:
+        stu_dic.setdefault(key, []).append(value)
+        
+print(stu_dic)
