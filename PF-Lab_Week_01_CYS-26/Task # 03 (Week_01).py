@@ -1,0 +1,1 @@
+print("Name: Abdur Rehman\nAge: 19\nCity: Lodhran")

@@ -1,0 +1,1 @@
+print("UET", "Lahore", "Computer", "Engineering", sep = "-")
